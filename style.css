@@ -1,0 +1,21 @@
+#menu{
+	z-index: 99;
+	list-style-type: none;
+	float:left;
+	
+}
+li{
+	float: left;
+	margin-left: 100px;
+}
+body{
+	z-index: 1;
+}
+button{
+	font-size: 30px;
+	padding: 10px;
+	background-color: yellow;
+}
+section{
+	height: 800px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pizza</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+        <ul id="menu">
+            <li><a href="#one">menu</a></li>
+            <li><a href="#two">Suggest an item</a></li>
+        </ul>
+        <section id="one">
+            <h1>My Pizzaria</h1>
+            <br>
+            <button onclick="showmenu()">Show menu</button>
+            <br>
+            <h2 id="allpizzas"></h2>
+        </section>
+        <section id="two">
+            <h1>Suggest a item</h1>
+            <input type="text" placeholder="Enter here" id="myInput">
+            <span><button onclick="submit()">Submit</button></span>
+            <h2 id="newpizzas"></h2>
+        </section>
+    </center>
+    </body>
+</html>
